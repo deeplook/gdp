@@ -16,6 +16,7 @@ dependencies:
   - pip
   - pip:
     - "-r requirements.txt"
+  - python=3.7
   - pyspark
   - qgrid
   - requests
