@@ -6,9 +6,13 @@ dependencies:
   - danielfrg::apache-livy
   - beakerx
   - bqplot
+  - bokeh
   - conda>=4.7.11
+  - contextily
+  - deprecated
   - geojson
   - geopy
+  - gdal
   - ipyleaflet>=0.11.1
   - ipympl
   - ipyvolume
@@ -17,11 +21,17 @@ dependencies:
   - pip
   - pip:
     - "-r requirements.txt"
+  - protobuf
   - python=3.7
   - pyspark
   - qgrid
   - requests
+  - requests-oauthlib
+  - reportlab
+  - selenium
   - scipy
   - sparkmagic
+  - svglib
+  - timeout-decorator
   - tqdm
   - voila 
