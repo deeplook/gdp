@@ -5,6 +5,7 @@ channels:
 dependencies:
   - beakerx
   - bqplot
+  - conda>=4.7.11
   - geojson
   - geopy
   - ipyleaflet>=0.11.1
@@ -15,7 +16,6 @@ dependencies:
   - pip
   - pip:
     - "-r requirements.txt"
-  - python3.7
   - pyspark
   - qgrid
   - requests
