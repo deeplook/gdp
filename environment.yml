@@ -7,31 +7,44 @@ dependencies:
   - beakerx
   - bqplot
   - bokeh
+  - boto3
+  - botocore
   - conda>=4.7.11
   - contextily
   - deprecated
   - geojson
   - geopy
   - gdal
+  - holoviews
   - ipyleaflet>=0.11.1
   - ipympl
   - ipyvolume
   - ipywidgets
   - jupyterlab
+  - matplotlib
+  - numpy
+  - opencv
   - pip
   - pip:
     - "-r requirements.txt"
   - protobuf
+  - pyarrow
   - python=3.7
+  - pypy3.5
   - pyspark
   - qgrid
   - requests
   - requests-oauthlib
   - reportlab
+  - rust
+  - seaborn
   - selenium
+  - scikit-image
+  - scikit-learn
   - scipy
   - sparkmagic
   - svglib
   - timeout-decorator
   - tqdm
-  - voila 
+  - voila
+  - xarray
