@@ -1,8 +1,9 @@
 name: gdp
 channels:
   - conda-forge
-  - izoda
+  - danielfrg
 dependencies:
+  - danielfrg::apache-livy
   - beakerx
   - bqplot
   - conda>=4.7.11
