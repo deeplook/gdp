@@ -12,16 +12,20 @@ dependencies:
   - conda>=4.7.11
   - contextily
   - deprecated
+  - ffmpeg
   - geojson
   - geopy
+  - geoviews
   - gdal
   - holoviews
+  - imagemagick
   - ipyleaflet>=0.11.1
   - ipympl
   - ipyvolume
   - ipywidgets
   - jupyterlab
   - matplotlib
+  - nltk
   - numpy
   - opencv
   - pip
@@ -42,6 +46,7 @@ dependencies:
   - scikit-image
   - scikit-learn
   - scipy
+  - spacy
   - sparkmagic
   - svglib
   - timeout-decorator
