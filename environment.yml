@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - izoda
 dependencies:
-  - apache-livy
+  - izoda::apache-livy
   - beakerx
   - bqplot
   - geojson
