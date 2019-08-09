@@ -2,15 +2,20 @@ name: gdp
 channels:
   - conda-forge
 dependencies:
+  - beakerx
   - bqplot
   - geojson
   - geopy
   - ipyleaflet>=0.11.1
   - ipympl
   - ipyvolume
+  - ipywidgets
+  - jupyterlab
   - pip
   - pip:
     - "-r requirements.txt"
-  - voila
+  - qgrid
+  - requests
   - scipy
- 
+  - tqdm
+  - voila 
