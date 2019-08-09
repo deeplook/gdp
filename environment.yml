@@ -14,8 +14,10 @@ dependencies:
   - pip
   - pip:
     - "-r requirements.txt"
+  - pyspark
   - qgrid
   - requests
   - scipy
+  - sparkmagic
   - tqdm
   - voila 
