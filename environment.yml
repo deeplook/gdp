@@ -1,7 +1,9 @@
 name: gdp
 channels:
   - conda-forge
+  - izoda
 dependencies:
+  - apache-livy
   - beakerx
   - bqplot
   - geojson
