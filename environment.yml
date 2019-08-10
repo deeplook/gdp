@@ -5,6 +5,7 @@ channels:
 dependencies:
   - danielfrg::apache-livy
   - asciinema
+  - aswcli
   - beakerx
   - black
   - bqplot
@@ -15,6 +16,7 @@ dependencies:
   - contextily
   - deprecated
   - ffmpeg
+  - flask
   - geojson
   - geopy
   - geoviews
@@ -42,6 +44,7 @@ dependencies:
   - python=3.7
   - pypy3.5
   - pyspark
+  - pytest
   - qgrid
   - requests
   - requests-oauthlib
@@ -54,6 +57,7 @@ dependencies:
   - scipy
   - spacy
   - sparkmagic
+  - sphinx
   - svglib
   - timeout-decorator
   - tqdm
