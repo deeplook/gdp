@@ -3,6 +3,7 @@ jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable python-markdown/main
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install @jupyter-voila/jupyterlab-preview
 jupyter labextension install jupyter-leaflet
 jupyter labextension install ipyvolume
 jupyter labextension install jupyter-threejs
