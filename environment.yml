@@ -5,6 +5,7 @@ channels:
 dependencies:
   - danielfrg::apache-livy
   - beakerx
+  - black
   - bqplot
   - bokeh
   - boto3
@@ -25,9 +26,11 @@ dependencies:
   - ipywidgets
   - jupyterlab
   - matplotlib
+  - nbdime
   - nltk
   - numpy
   - opencv
+  - papermill
   - pip
   - pip:
     - "-r requirements.txt"
