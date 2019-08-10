@@ -4,6 +4,7 @@ channels:
   - danielfrg
 dependencies:
   - danielfrg::apache-livy
+  - asciinema
   - beakerx
   - black
   - bqplot
@@ -22,6 +23,8 @@ dependencies:
   - imagemagick
   - ipyleaflet>=0.11.1
   - ipympl
+  - ipyrest
+  - ipytree
   - ipyvolume
   - ipywidgets
   - jupyterlab
