@@ -18,6 +18,7 @@ dependencies:
   - ffmpeg
   - flask
   - geojson
+  - geopandas
   - geopy
   - geoviews
   - gdal
