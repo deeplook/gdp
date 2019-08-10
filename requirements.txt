@@ -1,6 +1,6 @@
 awscli
 # python-geohash
-ipyrest
+# ipyrest
 openlocationcode
 osm2geojson
-sidecar
+# sidecar
