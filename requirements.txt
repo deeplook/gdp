@@ -1,6 +1,7 @@
 awscli
 # python-geohash
 ipyrest
+nikola
 openlocationcode
 osm2geojson
 pypeln
