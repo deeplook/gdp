@@ -67,6 +67,4 @@ dependencies:
   - tqdm
   - voila
   - watermark
-  - xarray
-  - xeus-cling>=0.6.0
-  
+  - xarray  
