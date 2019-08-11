@@ -5,6 +5,7 @@ channels:
 dependencies:
   - danielfrg::apache-livy
   - asciinema
+  - awscli
   - beakerx
   - black
   - bqplot
