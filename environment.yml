@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - danielfrg
 dependencies:
+  - aiohttp
   - danielfrg::apache-livy
   - asciinema
   - awscli
@@ -15,6 +16,7 @@ dependencies:
   - conda>=4.7.11
   - contextily
   - deprecated
+  - fastparquet
   - ffmpeg
   - flask
   - geojson
@@ -55,6 +57,8 @@ dependencies:
   - scikit-image
   - scikit-learn
   - scipy
+  - shapely
+  - snappy
   - spacy
   - sparkmagic
   - sphinx
@@ -64,3 +68,5 @@ dependencies:
   - voila
   - watermark
   - xarray
+  - xeus-cling>=0.6.0
+  
