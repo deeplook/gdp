@@ -3,4 +3,5 @@ awscli
 # ipyrest
 openlocationcode
 osm2geojson
+pypeln
 # sidecar
