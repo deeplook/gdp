@@ -5,4 +5,5 @@ nikola
 openlocationcode
 osm2geojson
 pypeln
+pyroutelib3
 sidecar
