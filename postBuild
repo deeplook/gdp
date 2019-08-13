@@ -5,10 +5,11 @@ jupyter nbextension enable python-markdown/main
 jupyter labextension install ipyvolume
 jupyter labextension install jupyter-leaflet
 jupyter labextension install jupyter-threejs
-jupyter labextension install jupyterlab-drawio
 jupyter labextension install jupyterlab_bokeh
-jupyter labextension install jupyterlab-python-file
+jupyter labextension install jupyterlab-drawio
+jupyter labextension install jupyterlab_graphviz
 jupyter labextension install jupyterlab-python-bytecode
+jupyter labextension install jupyterlab-python-file
 jupyter labextension install @jupyter-voila/jupyterlab-preview
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install @jupyter-widgets/jupyterlab-sidecar
