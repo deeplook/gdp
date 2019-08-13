@@ -4,6 +4,7 @@ channels:
   - danielfrg
 dependencies:
   - aiohttp
+  - anaconda-client
   - danielfrg::apache-livy
   - asciinema
   - awscli
@@ -37,6 +38,7 @@ dependencies:
   - nltk
   - numpy
   - opencv
+  - overpy
   - papermill
   - pip
   - pip:
