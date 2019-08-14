@@ -54,6 +54,7 @@ dependencies:
   - requests
   - requests-oauthlib
   - reportlab
+  - rise
   - rust
   - seaborn
   - selenium
