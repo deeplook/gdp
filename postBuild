@@ -14,7 +14,11 @@ jupyter labextension install \
   @jupyter-voila/jupyterlab-preview \
   @jupyter-widgets/jupyterlab-manager \
   @jupyter-widgets/jupyterlab-sidecar \
-  @jupyterlab/plotly-extension
+  @jupyterlab/geojson-extension \
+  @jupyterlab/katex-extension \
+  @jupyterlab/mathjax3-extension \
+  @jupyterlab/plotly-extension \
+  @mflevine/jupyterlab_html
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
