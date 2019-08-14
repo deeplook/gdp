@@ -33,6 +33,7 @@ dependencies:
   - ipyvolume
   - ipywidgets
   - jupyterlab
+  - luigi
   - matplotlib
   - nbdime
   - nltk
