@@ -8,9 +8,9 @@ jupyter labextension install \
   jupyter-threejs \
   jupyterlab_bokeh \
   jupyterlab-drawio \
-  jupyterlab_graphviz \
   jupyterlab-python-bytecode \
   jupyterlab-python-file \
+  @deathbeds/jupyterlab_graphviz \
   @jupyter-voila/jupyterlab-preview \
   @jupyter-widgets/jupyterlab-manager \
   @jupyter-widgets/jupyterlab-sidecar \
