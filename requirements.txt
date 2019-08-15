@@ -3,6 +3,7 @@ awscli
 geopandas
 ilua
 ipyrest
+keplergl
 nikola
 openlocationcode
 osm2geojson
