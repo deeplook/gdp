@@ -36,10 +36,10 @@ dependencies:
   - lua
   - luarocks
   - luigi
-  - matplotlib
+  - matplotlib>=3.1.1
   - nbdime
-  - nltk
-  - numpy
+  - nltk>=3.4.4
+  - numpy>=1.17
   - opencv
   - overpy
   - papermill
@@ -50,8 +50,8 @@ dependencies:
   - pyarrow
   - python=3.7
   - pypy3.5
-  - pyspark
-  - pytest
+  - pyspark>=2.4
+  - pytest>=5
   - qgrid
   - requests
   - requests-oauthlib
@@ -62,11 +62,11 @@ dependencies:
   - scikit-image
   - scikit-learn
   - scipy
-  - shapely
+  - shapely>=1.6
   - snappy
-  - spacy
+  - spacy>=2.1.8
   - sparkmagic
-  - sphinx
+  - sphinx>=2.1.2
   - svglib
   - timeout-decorator
   - tqdm
