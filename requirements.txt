@@ -1,6 +1,7 @@
 awscli
 # python-geohash
 geopandas
+ilua
 ipyrest
 nikola
 openlocationcode
