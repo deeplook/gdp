@@ -20,7 +20,7 @@ dependencies:
   - fastparquet
   - ffmpeg
   - flask
-  - fiona
+  - fiona>=1.8.6
   - geojson
   - geopy
   - geoviews
