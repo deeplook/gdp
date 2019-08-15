@@ -1,23 +1,10 @@
-cargo install evcxr_jupyter
-evcxr_jupyter --install
-
 pip install --upgrade jupyterthemes
 
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable python-markdown/main
-jupyter nbextension install --py --sys-prefix keplergl
-jupyter nbextension enable --py --sys-prefix keplergl
 
 jupyter labextension install \
-  ipyvolume \
-  jupyter-leaflet \
-  jupyter-threejs \
-  jupyterlab_bokeh \
-  jupyterlab-drawio \
-  jupyterlab-python-bytecode \
-  jupyterlab-python-file \
-  @deathbeds/jupyterlab_graphviz \
   @jupyter-voila/jupyterlab-preview \
   @jupyter-widgets/jupyterlab-manager \
   @jupyter-widgets/jupyterlab-sidecar \
