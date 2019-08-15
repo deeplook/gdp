@@ -1,3 +1,6 @@
+cargo install evcxr_jupyter
+evcxr_jupyter --install
+
 pip install --upgrade jupyterthemes
 
 jupyter contrib nbextension install --user
