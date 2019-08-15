@@ -1,14 +1,1 @@
-awscli
-# python-geohash
-fiona>=1.8.6
-geopandas
-ilua
-ipyrest
-keplergl
-nikola
-openlocationcode
-osm2geojson
-pypeln
-pyroutelib3
-rise
-sidecar
+
