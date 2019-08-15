@@ -32,6 +32,8 @@ dependencies:
   - ipyvolume
   - ipywidgets
   - jupyterlab
+  - lua
+  - luarocks
   - luigi
   - matplotlib
   - nbdime
