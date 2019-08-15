@@ -62,7 +62,7 @@ dependencies:
   - scikit-image
   - scikit-learn
   - scipy
-  - shapely>=1.6
+  - shapely
   - snappy
   - spacy>=2.1.8
   - sparkmagic
