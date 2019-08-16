@@ -8,3 +8,4 @@ dependencies:
   - pip:
     - "-r requirements.txt"
   - python=3.7
+  - rust
