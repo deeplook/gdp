@@ -29,4 +29,5 @@ jupyter trust index.ipynb
 
 # Rust kernel
 cargo install evcxr_jupyter
-~/.cargo/bin/evcxr_jupyter --install
+# chmod +x ~/.cargo/bin/evcxr_jupyter
+# ~/.cargo/bin/evcxr_jupyter --install
