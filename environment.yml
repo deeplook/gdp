@@ -12,6 +12,7 @@ dependencies:
   - pip:
     - "-r requirements.txt"
   - python=3.7
+  - octave
   - octave_kernel>=0.31.0
   - rust
   - voila>=0.1.9
