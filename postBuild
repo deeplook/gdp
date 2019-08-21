@@ -1,8 +1,8 @@
-pip install --upgrade jupyterthemes
+# pip install --upgrade jupyterthemes
 
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
-jupyter nbextension enable python-markdown/main
+# jupyter nbextension enable python-markdown/main
 
 jupyter labextension install \
   @jupyter-voila/jupyterlab-preview \
