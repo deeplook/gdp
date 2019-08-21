@@ -3,6 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - conda>=4.7.11
+  - ghostscript>=9.22
+  - gnuplot>=5.2.7
   - jupyterlab>=1.0.5
   - libspatialite>=4.3.0a
   - libspatialindex>=1.9.0
@@ -10,5 +12,6 @@ dependencies:
   - pip:
     - "-r requirements.txt"
   - python=3.7
+  - octave_kernel>=0.31.0
   - rust
   - voila>=0.1.9
