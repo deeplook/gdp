@@ -24,6 +24,8 @@ dependencies:
   - geopy
   - geoviews
   - gdal
+  - ghostscript>=9.22
+  - gnuplot>=5.2.7
   - holoviews
   - imagemagick
   - ipyleaflet>=0.11.1
@@ -32,6 +34,8 @@ dependencies:
   - ipyvolume
   - ipywidgets
   - jupyterlab>=1.0.5
+  - libspatialite>=4.3.0a
+  - libspatialindex>=1.9.0
   - lua
   - luarocks
   - luigi
@@ -39,6 +43,8 @@ dependencies:
   - nbdime
   - nltk
   - numpy>=1.17.0
+  - octave
+  - octave_kernel>=0.31.0
   - opencv
   - overpy
   - papermill
@@ -55,7 +61,6 @@ dependencies:
   - requests
   - requests-oauthlib
   - reportlab
-  - rust
   - seaborn
   - selenium
   - scikit-image
