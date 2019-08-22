@@ -5,6 +5,7 @@
 Building a Jupyter Rust kernel, see https://lib.rs/crates/evcxr_jupyter
 
 ```
+sudo apt install libzmq3-dev
 conda install -y -c conda-forge rust
 cargo install evcxr_jupyter # doesn't compile
 chmod +x ~/.cargo/bin/evcxr_jupyter
