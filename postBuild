@@ -1,6 +1,5 @@
 pip install --upgrade jupyterthemes
 
-jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable python-markdown/main
 jupyter nbextension install --py --sys-prefix keplergl
@@ -24,10 +23,11 @@ jupyter labextension install \
   @jupyterlab/plotly-extension \
   @mflevine/jupyterlab_html
 
+# Rust kernel, working
+curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain=stable -y
+~/.cargo/bin/cargo install evcxr_jupyter
+chmod +x ~/.cargo/bin/evcxr_jupyter 
+~/.cargo/bin/evcxr_jupyter --install
+
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
-
-# Rust kernel
-cargo install evcxr_jupyter
-# chmod +x ~/.cargo/bin/evcxr_jupyter
-# ~/.cargo/bin/evcxr_jupyter --install
