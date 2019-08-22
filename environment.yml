@@ -43,8 +43,8 @@ dependencies:
   - nbdime
   - nltk
   - numpy>=1.17.0
-  - octave
-  - octave_kernel>=0.31.0
+  # - octave
+  # - octave_kernel>=0.31.0
   - opencv
   - overpy
   - papermill
