@@ -1,14 +1,14 @@
-upyter nbextension enable --py widgetsnbextension
-
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
 
-# Rust kernel
+# Rust kernel, not working
+# conda install -c conda-forge rust
 # cargo install evcxr_jupyter # doesn't compile in rust_kernel branch
 # chmod +x ~/.cargo/bin/evcxr_jupyter
 # ~/.cargo/bin/evcxr_jupyter --install
 
+# Rust kernel, working
 curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain=stable -y
-$HOME/.cargo/bin/cargo install evcxr_jupyter
+~/.cargo/bin/cargo install evcxr_jupyter
 chmod +x ~/.cargo/bin/evcxr_jupyter 
 ~/.cargo/bin/evcxr_jupyter --install
