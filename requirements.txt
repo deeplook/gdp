@@ -1,2 +1,1 @@
-autokeras>=0.4.0
-osmnx>=0.10
+
