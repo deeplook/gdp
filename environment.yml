@@ -46,6 +46,7 @@ dependencies:
   # - octave
   # - octave_kernel>=0.31.0
   - opencv
+  - osmnx
   - overpy
   - papermill
   - pip
