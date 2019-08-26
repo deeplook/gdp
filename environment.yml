@@ -24,8 +24,8 @@ dependencies:
   - geopy
   - geoviews
   - gdal
-  - ghostscript>=9.22
-  - gnuplot>=5.2.7
+  # - ghostscript>=9.22
+  # - gnuplot>=5.2.7
   - holoviews
   - imagemagick
   - ipyleaflet>=0.11.1
