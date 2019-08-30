@@ -11,7 +11,8 @@ conda install -c conda-forge xeus-cling
 ## Julia
 
 ```
-pip install julia
+conda install -c conda-forge julia
+julia -E 'using Pkg; Pkg.add("IJulia")'
 ```
 
 ## JVM
