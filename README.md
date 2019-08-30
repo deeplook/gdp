@@ -57,3 +57,10 @@ curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain=stable -y
 chmod +x ~/.cargo/bin/evcxr_jupyter 
 ~/.cargo/bin/evcxr_jupyter --install
 ```
+
+**Spark (PySpark, Spark, SparkR)**
+
+```
+conda install -c conda-forge pyspark
+conda install -c conda-forge sparkmagic
+```
