@@ -5,7 +5,26 @@
 ## C++
 
 ```
-conda install xeus-cling -c conda-forge
+conda install -c conda-forge xeus-cling
+```
+
+## Julia
+
+```
+pip install julia
+```
+
+## JVM
+
+```
+conda install -c conda-forge ipywidgets beakerx
+```
+
+## Lua
+
+```
+conda install -c conda-forge lua luarocks
+pip install ilua
 ```
 
 ## Octave
