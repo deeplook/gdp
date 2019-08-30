@@ -43,6 +43,11 @@ conda install -c conda-forge octave_kernel
 
 **Rust**
 
+Installed by [mybinder.org](https://mybinder.org) using the files `install.R` and `runtime.txt`.
+
+
+**Rust**
+
 https://github.com/google/evcxr/blob/master/binder/postBuild
 
 ```
