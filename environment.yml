@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - conda>=4.7.11
+  - xeus-cling
   - jupyterlab>=1.0.5
   - pip
   - pip:
