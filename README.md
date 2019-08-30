@@ -2,33 +2,35 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deeplook/gdp/multikernels?urlpath=lab)
 
-## C++
+## Kernels
+
+**C++**
 
 ```
 conda install -c conda-forge xeus-cling
 ```
 
-## Julia
+**Julia**
 
 ```
 conda install -c conda-forge julia
 julia -E 'using Pkg; Pkg.add("IJulia")'
 ```
 
-## JVM
+**JVM (Clojure, Groovy, Java, Kotlin, Scala)**
 
 ```
 conda install -c conda-forge ipywidgets beakerx
 ```
 
-## Lua
+**Lua**
 
 ```
 conda install -c conda-forge lua luarocks
 pip install ilua
 ```
 
-## Octave
+**Octave**
 
 ```
 sudo apt install octave
@@ -39,7 +41,7 @@ sudo apt install ghostscript
 conda install -c conda-forge octave_kernel
 ```
 
-## Rust
+**Rust**
 
 https://github.com/google/evcxr/blob/master/binder/postBuild
 
