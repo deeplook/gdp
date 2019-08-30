@@ -4,6 +4,7 @@ channels:
 dependencies:
   - beakerx
   - conda>=4.7.11
+  - julia
   - jupyterlab>=1.0.5
   - lua
   - luarocks
