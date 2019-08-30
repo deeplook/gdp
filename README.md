@@ -8,6 +8,17 @@
 conda install xeus-cling -c conda-forge
 ```
 
+## Octave
+
+```
+sudo apt install octave
+sudo apt install octave-symbolic
+sudo apt install octave-miscellaneous
+sudo apt install gnuplot
+sudo apt install ghostscript
+conda install -c conda-forge octave_kernel
+```
+
 ## Rust
 
 https://github.com/google/evcxr/blob/master/binder/postBuild
