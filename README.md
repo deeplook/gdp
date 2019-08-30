@@ -41,6 +41,16 @@ sudo apt install ghostscript
 conda install -c conda-forge octave_kernel
 ```
 
+**Processing**
+
+```
+pip install calypso_processing
+wget http://download.processing.org/processing-3.5.3-linux64.tgz
+tar xvf processing-3.5.3-linux64.tgz
+echo 'export PROCESSING_JAVA=$HOME/processing-3.5.3/processing-java' >> .profile
+python3 -m calysto_processing install --user
+```
+
 **R**
 
 Installed by [mybinder.org](https://mybinder.org) using the files `install.R` and `runtime.txt`.
