@@ -1,21 +1,8 @@
 # gdp
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deeplook/gdp/rust_kernel?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deeplook/gdp/multikernels?urlpath=lab)
 
-
-## Not working
-
-Building a Jupyter Rust kernel, see https://lib.rs/crates/evcxr_jupyter
-
-```
-sudo apt install libzmq3-dev
-conda install -y -c conda-forge rust
-cargo install evcxr_jupyter # doesn't compile in rust_kernel branch
-chmod +x ~/.cargo/bin/evcxr_jupyter
-~/.cargo/bin/evcxr_jupyter --install
-```
-
-##  Working
+## Rust
 
 https://github.com/google/evcxr/blob/master/binder/postBuild
 
