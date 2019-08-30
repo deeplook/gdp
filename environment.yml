@@ -4,6 +4,8 @@ channels:
 dependencies:
   - conda>=4.7.11
   - jupyterlab>=1.0.5
+  - lua
+  - luarocks
   - octave_kernel
   - pip
   - pip:
