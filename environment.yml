@@ -3,9 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - conda>=4.7.11
-  - xeus-cling
   - jupyterlab>=1.0.5
+  - octave_kernel
   - pip
   - pip:
     - "-r requirements.txt"
   - python=3.7
+  - xeus-cling
