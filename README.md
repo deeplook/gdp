@@ -41,7 +41,7 @@ sudo apt install ghostscript
 conda install -c conda-forge octave_kernel
 ```
 
-**Rust**
+**R**
 
 Installed by [mybinder.org](https://mybinder.org) using the files `install.R` and `runtime.txt`.
 
