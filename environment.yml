@@ -12,5 +12,7 @@ dependencies:
   - pip
   - pip:
     - "-r requirements.txt"
+  - pyspark
   - python=3.7
+  - sparkmagic
   - xeus-cling
