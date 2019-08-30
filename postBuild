@@ -1,13 +1,11 @@
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
 
-# Rust kernel, not working
-# conda install -c conda-forge rust
-# cargo install evcxr_jupyter # doesn't compile in rust_kernel branch
-# chmod +x ~/.cargo/bin/evcxr_jupyter
-# ~/.cargo/bin/evcxr_jupyter --install
+# Julia
+julia -E 'using Pkg; Pkg.add("IJulia")'
 
 # Rust kernel, working
+# conda install -c conda-forge rust # not recommended
 curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain=stable -y
 ~/.cargo/bin/cargo install evcxr_jupyter
 chmod +x ~/.cargo/bin/evcxr_jupyter 
