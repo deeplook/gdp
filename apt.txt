@@ -5,3 +5,8 @@ gnuplot
 ghostscript
 
 libzmq3-dev
+
+# nodejs-legacy
+# npm
+# ipython
+# ipython-notebook
