@@ -14,3 +14,9 @@ jupyter trust index.ipynb
 # NodeJS
 npm install -g ijavascript
 ijsinstall
+
+# Fortran
+git clone https://github.com/ZedThree/jupyter-fortran-kernel.git
+pip install -e jupyter-fortran-kernel
+cd jupyter-fortran-kernel
+jupyter-kernelspec install --user fortran_spec/
