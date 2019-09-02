@@ -10,6 +10,16 @@
 conda install -c conda-forge xeus-cling
 ```
 
+**Fortran**
+
+```
+sudo apt-get install gfortran
+git clone https://github.com/ZedThree/jupyter-fortran-kernel.git
+pip install -e jupyter-fortran-kernel
+cd jupyter-fortran-kernel
+jupyter-kernelspec install --user fortran_spec/
+```
+
 **Julia**
 
 ```
