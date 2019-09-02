@@ -4,6 +4,10 @@ jupyter trust index.ipynb
 # Julia
 julia -E 'using Pkg; Pkg.add("IJulia")'
 
+# NodeJS
+npm install -g ijavascript
+ijsinstall
+
 # Rust kernel, working
 # conda install -c conda-forge rust # not recommended
 curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain=stable -y
