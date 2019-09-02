@@ -30,6 +30,14 @@ conda install -c conda-forge lua luarocks
 pip install ilua
 ```
 
+**NodeJS**
+
+```
+sudo apt-get install nodejs-legacy npm ipython ipython-notebook
+sudo npm install -g ijavascript
+ijsinstall
+```
+
 **Octave**
 
 ```
