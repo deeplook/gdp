@@ -1,6 +1,12 @@
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
 
+# Fortran
+git clone https://github.com/ZedThree/jupyter-fortran-kernel.git
+pip install -e jupyter-fortran-kernel
+cd jupyter-fortran-kernel
+jupyter-kernelspec install --user fortran_spec/
+
 # Julia
 julia -E 'using Pkg; Pkg.add("IJulia")'
 
