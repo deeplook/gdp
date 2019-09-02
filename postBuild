@@ -11,14 +11,6 @@ jupyter labextension install \
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
 
-# Rust kernel
-# cargo install evcxr_jupyter # doesn't work in the minimal branch
-# chmod +x ~/.cargo/bin/evcxr_jupyter
-# ~/.cargo/bin/evcxr_jupyter --install
-
-# Processing
-cd $HOME
-wget http://download.processing.org/processing-3.5.3-linux64.tgz
-tar xvf processing-3.5.3-linux64.tgz
-echo 'export PROCESSING_JAVA=$HOME/processing-3.5.3/processing-java' >> .profile
-python3 -m calysto_processing install --user
+# NodeJS
+npm install -g ijavascript
+ijsinstall
