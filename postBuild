@@ -21,6 +21,9 @@ curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain=stable -y
 chmod +x ~/.cargo/bin/evcxr_jupyter 
 ~/.cargo/bin/evcxr_jupyter --install
 
+# Go
+jupyterlab install @yunabe/lgo_extension
+
 # Processing
 cd $HOME
 wget http://download.processing.org/processing-3.5.3-linux64.tgz
