@@ -8,7 +8,7 @@ cd jupyter-fortran-kernel
 jupyter-kernelspec install --user fortran_spec/
 
 # Julia
-julia -E 'using Pkg; Pkg.add("IJulia")'
+# julia -E 'using Pkg; Pkg.add("IJulia")'
 
 # NodeJS
 npm install -g ijavascript
